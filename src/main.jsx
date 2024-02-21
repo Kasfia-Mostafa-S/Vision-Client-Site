@@ -5,13 +5,14 @@ import "./index.css";
 import Home from "./HomePage/Home";
 import Login from "./Login/Login";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
     children: [
       {
-        path: "/login",
+        path: "login",
         element: <Login />,
       },
     ],
