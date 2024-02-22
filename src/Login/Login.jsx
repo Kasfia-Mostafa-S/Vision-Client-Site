@@ -7,11 +7,13 @@ import {
 } from "firebase/auth";
 import { auth } from "../Components/Firebase/firebase.config";
 import { useNavigate } from "react-router-dom";
+import useAxiosPublic from "../Hooks/useAxiosPublic"
 
 function Login() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userData, setUserData] = useState({});
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  const axiosPublic = useAxiosPublic()
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (result) => {
@@ -32,11 +34,15 @@ function Login() {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)
       .then((result) => {
-        const { displayName, email } = result.user;
-        setUserData({ displayName, email });
+        console.log(result.user);
+        const userInfo = {
+          email: result.user?.email,
+          name: result.user?.displayName,
+          photo: result.user?.photoURL
+        }
+        axiosPublic.post('/users', userInfo)
         setIsLoggedIn(true);
-        navigate('/')
-
+        navigate("/");
       })
       .catch((error) => {
         console.log({ error });
