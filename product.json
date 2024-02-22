@@ -1,0 +1,182 @@
+[
+  {
+    "name": "I Phone 13",
+    "brand": "Apple",
+    "price": "100k",
+    "category": "Phone",
+    "photo": "https://i.ibb.co/xhFHGZx/thumbnail-elle-iphone-v1-1646951767.jpg",
+    "rating": "4.94",
+    "description": "The iPhone 13 features a 6.1-inch (155 mm) display with Super Retina XDR OLED technology at a resolution of 2532×1170 pixels and a pixel density of about 460 PPI with a refresh rate of 60 Hz."
+  },
+  {
+    "name": "Apple Watch Series 7",
+    "brand": "Apple",
+    "price": "30k",
+    "category": "Watch",
+    "photo": "https://i.ibb.co/KDgJVVK/Ars-Technica-Apple-Watch-Series-7-Review-14-640x427.jpg",
+    "rating": "3.91",
+    "description": "Apple Watch Series 7 watch features 1.9″ display, Apple S7 chipset, 309 mAh battery, 32 GB storage, 1000 MB RAM, IP6X certified."
+  },
+  {
+    "name": "Apple Watch Series 8",
+    "brand": "Apple",
+    "price": "60k",
+    "category": "Watch",
+    "photo": "https://i.ibb.co/60bK237/images.jpg",
+    "rating": "4.00",
+    "description": "Apple Watch Series 6 watch features 1.9″ display, Apple S7 chipset, 400 mAh battery, 32 GB storage, 1000 MB RAM, IP6X certified."
+  },
+  {
+    "name": "Samsung s23 ultra",
+    "brand": "Samsung",
+    "price": "100k",
+    "category": "Phone",
+    "photo": "https://i.ibb.co/vL9CPB2/download.jpg",
+    "rating": "5.00",
+    "description": "The Galaxy S23 Ultra has the unique ability to record veo in 8k at 30 fps, the newest and most high-quality picture standard available. The S23 Ultra offers improved low-light capture, a wer field of view, and enhanced zoom capabilities."
+  },
+  {
+    "name": "Samsung s21 ultra",
+    "brand": "Samsung",
+    "price": "80k",
+    "category": "Phone",
+    "photo": "https://i.ibb.co/fNXp1gw/images-1.jpg",
+    "rating": "5.00",
+    "description": "The Galaxy S21 Ultra has the unique ability to record veo in 8k at 30 fps, the newest and most high-quality picture standard available. The S21 Ultra offers improved low-light capture, a wer field of view, and enhanced zoom capabilities."
+  },
+  {
+    "name": "Samsung A73",
+    "brand": "Samsung",
+    "price": "70k",
+    "category": "Phone",
+    "photo": "https://i.ibb.co/mDcVRG7/images-2.jpg",
+    "rating": "5.00",
+    "description": "The elegant lines of Galaxy A73 5G are meticulously designed for optimal performance and aesthetics. Super slim bezels, an incredibly light display and seamless camera housing with the Ambient Edge all come together in a thinner frame holding extended battery life."
+  },
+  {
+    "name": "Samsung S20 FE",
+    "brand": "Samsung",
+    "price": "30k",
+    "category": "Phone",
+    "photo": "https://i.ibb.co/T8fTwcX/HHT5s-NHvvmg8vy-YSLKe-SHP.jpg",
+    "rating": "5.00",
+    "description": "The Galaxy S20 FE is a slightly more affordable way to get what Samsung consers to be its most important elements. It offers a powerful processor, an IP68 rating, an AMOLED display, and three rear cameras without the steep Galaxy S20 price tag."
+  },
+  {
+    "name": "Sony A7 IV",
+    "brand": "Sony",
+    "price": "60k",
+    "category": "Camera",
+    "photo": "https://i.ibb.co/GRkK59D/d89b7a00137e2a220ee6fa8e65f727b8.jpg",
+    "rating": "5.00",
+    "description": "An all-arounder that pushes beyond basic, the Sony a7 IV does double duty with strong stills and veo performance. An advanced hybr mirrorless camera, the a7 IV has the resolution and AF performance that appeals to photographers along with robust 4K 60p veo recording for filmmakers and content creators."
+  },
+  {
+    "name": "Sony A7  V",
+    "brand": "Sony",
+    "price": "50k",
+    "category": "Camera",
+    "photo": "https://i.ibb.co/QMf59zS/images.jpg",
+    "rating": "5.00",
+    "description": "The new Alpha 7R V offers 61.0MP still images plus the most effective 8-step image stabilization system ever offered in any of Sony's Alpha cameras, as well as refined 8K movie recording, a new 4-axis multi-angle LCD monitor, high-speed communication functions, high-level operabilit"
+  },
+  {
+    "name": "Sony A9 Mark II",
+    "brand": "Sony",
+    "price": "45k",
+    "category": "Camera",
+    "photo": "https://i.ibb.co/xYcHgYF/Athol-Hill-Sony-A9ii-Review21.jpg",
+    "rating": "5.00",
+    "description": "Built for speed, the a9 II utilizes a 24.2MP Exmor RS BSI stacked CMOS sensor, along with an updated BIONZ X image processor, that yields impressively quick and responsive performance. Up to 20 fps continuous shooting is possible using an electronic shutter or 10 fps shooting is supported with a mechanical shutter."
+  },
+  {
+    "name": "Sony ZV-E1",
+    "brand": "Sony",
+    "price": "55k",
+    "category": "Camera",
+    "photo": "https://i.ibb.co/7g76q1z/sony-zv-e10-review.jpg",
+    "rating": "5.00",
+    "description": "The Sony ZV-E10 is an entry-level vlogging camera. With similar internals to the Sony α6100 and the dedicated vlogging features of the Sony ZV-1—including a fully-articulated screen, vlogging mic, and no viewfinder—it's made for YouTubers and content creators who want to record vlogs without breaking the bank."
+  },
+  {
+    "name": "Hp Envy 15",
+    "brand": "HP",
+    "price": "100k",
+    "category": "Laptop",
+    "photo": "https://i.ibb.co/hK48WdM/envy-x360-convert-13-ay1678au-04-500x500-1.jpg",
+    "rating": "4.55",
+    "description": "HP Envy 15 (2020) is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 16GB of RAM. The HP Envy 15 (2020) packs 512GB of SSD storage. Graphics are powered by Nvia GeForce GTX 1650."
+  },
+  {
+    "name": "Hp  15",
+    "brand": "HP",
+    "price": "75k",
+    "category": "Laptop",
+    "photo": "https://i.ibb.co/3srm3YN/images-1.jpg",
+    "rating": "4.55",
+    "description": "HP 15 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1366x768 pixels. It is powered by a Core i5 processor and it comes with 16GB of RAM. The HP 15 packs 512GB of HDD storage. Graphics are powered by AMD Radeon R4."
+  },
+  {
+    "name": "Hp Pavilion 14",
+    "brand": "HP",
+    "price": "75k",
+    "category": "Laptop",
+    "photo": "https://i.ibb.co/h1Q9fVx/14-ce2096tx-02-500x500.jpg",
+    "rating": "4.65",
+    "description": "HP Pavilion 14-dv0053TU is a Windows 10 Home laptop with a 14.00-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 16GB of RAM. The HP Pavilion 14-dv0053TU packs 512GB of SSD storage. Graphics are powered by Intel Integrated Iris Xe."
+  },
+  {
+    "name": "HP Spectre x360 16",
+    "brand": "HP",
+    "price": "120k",
+    "category": "Laptop",
+    "photo": "https://i.ibb.co/TB6bC7c/hp-spectre-x360-convertible-laptop-13t-aw200-black-3-tejar.jpg",
+    "rating": "5.00",
+    "description": "HP Spectre X360 is a Windows 10 Professional laptop with a 13.30-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i7 processor and it comes with 8GB of RAM. The HP Spectre X360 packs 256GB of SSD storage. Graphics are powered by Intel Integrated UHD Graphics 620."
+  },
+  {
+    "name": "Beats Studio Pro",
+    "brand": "Beats",
+    "price": "35k",
+    "category": "Headphone",
+    "photo": "https://i.ibb.co/98pV4Kn/download.jpg",
+    "rating": "4,66",
+    "description": "The Beats Studio Pro are a relatively light-weight set of Bluetooth headphones. With up to 40 hours of battery life, USB Type-C charging and wired playback, as well as a 3.5mm port, ANC, and Spatial Audio, these are contenders for the hottest headphones of 2023."
+  },
+  {
+    "name": "Beats Studio Pro",
+    "brand": "Beats",
+    "price": "30k",
+    "category": "Headphone",
+    "photo": "https://i.ibb.co/cJzqNxt/images-2.jpg",
+    "rating": "4,67",
+    "description": " This headphone delivers premium playback with fine-tuned acoustics that maximize clarity, breadth, and balance. The comfort-cushion ear cups buffer outse noise for immersive sound, so you can experience music the way it was meant to be heard."
+  },
+  {
+    "name": "Beats Ep",
+    "brand": "Beats",
+    "price": "52k",
+    "category": "Headphone",
+    "photo": "https://i.ibb.co/2kypWCt/download-1.jpg",
+    "rating": "3.89",
+    "description": "eats EP headphones are tough, lightweight and comfortable. Their durable frame is reinforced with stainless steel, and adjustable vertical slers allow for personalise comfort. Designed for everyday use"
+  },
+  {
+    "name": "Beats Mixr",
+    "brand": "Beats",
+    "price": "25k",
+    "category": "Headphone",
+    "photo": "https://i.ibb.co/6sKRk3c/download-2.jpg",
+    "rating": "4.23",
+    "description": "Beats Mixr headphones are built to withstand the rigors of DJ life, which means creating a housing flexible and tough enough to take a beating. The ultra-flexible headband was also crafted to be super-lightweight and easily foldable for jetting off to your next destination."
+  },
+  {
+    "name": "Samsung s21 ultra",
+    "brand": "Samsung",
+    "price": "80k",
+    "category": "Phone",
+    "photo": "https://i.ibb.co/fNXp1gw/images-1.jpg",
+    "rating": "5.00",
+    "description": "The Galaxy S21 Ultra has the unique ability to record veo in 8k at 30 fps, the newest and most high-quality picture standard available. The S21 Ultra offers improved low-light capture, a wer field of view, and enhanced zoom capabilities."
+  }
+]
