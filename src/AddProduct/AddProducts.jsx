@@ -1,42 +1,35 @@
 import Swal from "sweetalert2";
-import useAxiosPublic from '../Hooks/useAxiosPublic'
-
+import useAxiosPublic from "../Hooks/useAxiosPublic";
 
 const AddProducts = () => {
-  const axiosPublic = useAxiosPublic()
+  const axiosPublic = useAxiosPublic();
 
-  const handleAddProperty = (event) => {
+  const handleAddProduct = (event) => {
     event.preventDefault();
     const form = event.target;
-    const property_image = form.property_image.value;
-    const property_location = form.property_location.value;
-    const property_title = form.property_title.value;
-    const property_price = form.property_price.value;
-    const agent_name = form.agent_name.value;
-    const email = form.email.value;
-    const agent_image = form.agent_image.value;
+    const name = form.name.value;
+    const brand = form.brand.value;
+    const price = form.price.value;
+    const category = form.category.value;
+    const photo = form.photo.value;
     const description = form.description.value;
-    const status = form.status.value;
 
-    const newAddProperty = {
-      property_image,
-      property_location,
-      property_title,
-      property_price,
-      email,
-      agent_name,
-      agent_image,
-      description,
-      status
+    const newAddProduct = {
+      name,
+      brand,
+      price,
+      category,
+      photo,
+      description
     };
 
-    axiosPublic.post("/property", newAddProperty).then((res) => {
+    axiosPublic.post("/products", newAddProduct).then((res) => {
       console.log(res.data);
       if (res.data.insertedId) {
         Swal.fire({
           position: "top-center",
           icon: "success",
-          title: "Property added",
+          title: "Product added",
           showConfirmButton: false,
           timer: 1500,
         });
@@ -46,18 +39,17 @@ const AddProducts = () => {
 
   return (
     <div>
-      
       <div className="max-w-7xl mx-auto my-20 ">
         <div className="hero-content flex-col">
           <div className="card w-full shadow-xl bg-sky-100 ">
-            <form onSubmit={handleAddProperty} className="card-body h-full">
+            <form onSubmit={handleAddProduct} className="card-body h-full">
               <div className=" grid grid-cols-2 gap-5">
                 <div className="form-control grid">
                   <label className="label">
-                    <span className="label-text text-lg">Property Title</span>
+                    <span className="label-text text-lg">Product Name</span>
                   </label>
                   <input
-                    name="property_title"
+                    name="name"
                     type="text"
                     placeholder=""
                     className="input input-bordered text-gray-600"
@@ -66,12 +58,10 @@ const AddProducts = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-lg">
-                      Property Location
-                    </span>
+                    <span className="label-text text-lg">Property Brand</span>
                   </label>
                   <input
-                    name="property_location"
+                    name="brand"
                     type="text"
                     placeholder=""
                     className="input input-bordered text-gray-600"
@@ -80,10 +70,10 @@ const AddProducts = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-lg">Property Image</span>
+                    <span className="label-text text-lg">Product Image</span>
                   </label>
                   <input
-                    name="property_image"
+                    name="photo"
                     type="text"
                     placeholder=""
                     className="input input-bordered text-gray-600"
@@ -92,10 +82,34 @@ const AddProducts = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-lg">Property Price</span>
+                    <span className="label-text text-lg">Product Price</span>
                   </label>
                   <input
-                    name="property_price"
+                    name="price"
+                    type="text"
+                    placeholder=""
+                    className="input input-bordered text-gray-600"
+                    required
+                  />
+                </div>
+                <div className="form-control">
+                  <label className="label">
+                    <span className="label-text text-lg">Product Category</span>
+                  </label>
+                  <input
+                    name="category"
+                    type="text"
+                    placeholder=""
+                    className="input input-bordered text-gray-600"
+                    required
+                  />
+                </div>
+                <div className="form-control">
+                  <label className="label">
+                    <span className="label-text text-lg">Product Rating</span>
+                  </label>
+                  <input
+                    name="rating"
                     type="text"
                     placeholder=""
                     className="input input-bordered text-gray-600"
@@ -117,7 +131,7 @@ const AddProducts = () => {
               <div>
                 <p className="text-lg">Description</p>
                 <textarea
-                name="description"
+                  name="description"
                   className="textarea textarea-bordered w-full text-gray-600 p-4 h-60"
                   placeholder="description"
                 ></textarea>
