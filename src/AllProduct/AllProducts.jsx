@@ -22,10 +22,10 @@ const AllProducts = () => {
 
 
   return (
-    <div className="bg-white pb-16">
-    <div className="bg-pink-100 ">
-      <h2 className="text-6xl  text-center py-10 text-pink-800">
-        All Products
+    <div className="pb-16">
+    <div className="">
+      <h2 className="text-6xl text-center py-10 bg-pink-200 dark:text-slate-800">
+        All Devices
       </h2>
       
     </div>
